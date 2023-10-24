@@ -38,6 +38,9 @@ pub struct Options {
 #[non_exhaustive]
 pub enum Tier {
     #[allow(missing_docs)]
+    Nova,
+    
+    #[allow(missing_docs)]
     Enhanced,
 
     #[allow(missing_docs)]
